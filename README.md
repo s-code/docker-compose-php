@@ -1,1 +1,1 @@
-# docker-compose-php
+# Docker compose alpine image with php7
