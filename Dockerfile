@@ -6,5 +6,6 @@ RUN apk --no-cache add php7 php7-fpm php7-opcache php7-mysqli php7-json php7-ope
     rm -rf /var/lib/apt/lists/*
 
 RUN yarn global add gulp-cli
+RUN yarn global add npm
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
